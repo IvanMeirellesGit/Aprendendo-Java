@@ -6,9 +6,8 @@ public class App {
 
         do {
             System.out.println("Digite um numero ou 99 para sair:");
-        } while (opcao != 99){
             Scanner entrada = new Scanner(System.in);
             opcao = entrada.nextInt();
-        }
+        } while (opcao != 99);
     }
 }
