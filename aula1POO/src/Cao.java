@@ -14,11 +14,11 @@ public class Cao {
         this.idade = idade;
     }
 
-    private void Anda() {
+    public void Anda() {
         System.out.println("Estou andando..." + cor);
     }
 
-    private void DadosCao() {
+    public void DadosCao() {
         System.out.println(nome + " " + idade);
     }
 }
