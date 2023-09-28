@@ -5,6 +5,12 @@ public class Cao {
     int idade;
     double peso;
 
+    public Cao() {
+        cor = "Caramelo";
+    }
+
+    public Cao(String nome, int ) {}
+
     public void Anda() {
         System.out.println("Estou andando...");
     }
@@ -13,11 +19,4 @@ public class Cao {
         System.out.println("Estou latindo...");
     }
 
-    public void Dorme() {
-        System.out.println("Dormindo...");
-    }
-
-    public void PegarOsso() {
-        System.out.println("Peguei Osso...");
-    }
 }
