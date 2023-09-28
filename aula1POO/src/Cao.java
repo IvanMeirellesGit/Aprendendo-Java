@@ -9,14 +9,16 @@ public class Cao {
         cor = "Caramelo";
     }
 
-    public Cao(String nome, int ) {}
+    public Cao(String nome, int idade) {
+        this.nome = nome;
+        this.idade = idade;
+    }
 
     public void Anda() {
-        System.out.println("Estou andando...");
+        System.out.println("Estou andando..." + cor);
     }
 
-    public void Late() {
-        System.out.println("Estou latindo...");
+    public void DadosCao(){
+        System.out.println(nome + "" + idade);
     }
-
 }
