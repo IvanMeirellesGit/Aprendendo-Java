@@ -10,4 +10,7 @@ abstract class Conta {
     }
 
     public abstract void imprimeExtrato();
+
+    public void depositar(int i) {
+    }
 }
