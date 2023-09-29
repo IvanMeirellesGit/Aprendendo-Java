@@ -6,6 +6,7 @@ public class App {
         cp.sacar(12);
 
         System.out.println(cp.getSaldo());
+        System.out.println("Teste");
 
     }
 }
