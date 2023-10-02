@@ -1,13 +1,20 @@
 public class App {
     public static void main(String[] args) {
 
-        Cachorro c = new Cachorro();
-        c.setNome("Bidu");
+        Cachorro cachorro = new Cachorro();
+        cachorro.setNome("Bidu");
 
-        Gato g = new Gato();
-        g.setNome("Lola");
+        Gato gato = new Gato();
+        gato.setNome("Lola");
 
-        c.Mostrar();
-        g.Mostrar();
+        Leao leao = new Leao();
+        leao.setNome("Lion");
+        leao.setPeso(387.0);
+
+        cachorro.Mostrar();
+        gato.Mostrar();
+
+        leao.Rugir();
+        System.out.println("Peso do Leão: " + leao.getPeso());
     }
 }
